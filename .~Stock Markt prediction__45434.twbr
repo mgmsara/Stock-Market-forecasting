@@ -1519,7 +1519,7 @@
             <encoding attr='space' class='0' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[Latitude (generated)]' field-type='quantitative' max='13146532.220062589' min='-8948180.8040796835' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
-            <encoding attr='color' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[avg:Compound:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[avg:Compound:qk]' num-steps='5' palette='red_green_diverging_10_0' type='interpolated' />
           </style-rule>
           <style-rule element='table'>
             <format attr='omit-on-special' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[Longitude (generated)]' value='false' />
@@ -1614,8 +1614,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[Longitude (generated)]' field-type='quantitative' max='16955186.516788848' min='-14055054.584905894' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[Latitude (generated)]' field-type='quantitative' max='12576019.378296763' min='-4520976.0721872542' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[Longitude (generated)]' field-type='quantitative' max='15973999.187553257' min='-13373540.910703726' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[Latitude (generated)]' field-type='quantitative' max='12206000.635768872' min='-3974291.4779669172' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.0wwv8jb0duxtc8147ltf91ssjp0n].[avg:Compound (TESLA_Last7days.csv):qk]' num-steps='5' palette='red_green_diverging_10_0' type='interpolated' />
@@ -1700,7 +1700,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Tesla Perception (last 7 days) on Twitter'>
+    <window class='worksheet' maximized='true' name='Tesla Perception (last 7 days) on Twitter'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1769,7 +1769,7 @@
       </cards>
       <simple-id uuid='{1ED35889-D3DE-485D-B7EF-2B1BB37A8EC2}' />
     </window>
-    <window class='worksheet' maximized='true' name='Events &amp; Sentimental Analysis Elon Musk Tweets'>
+    <window class='worksheet' name='Events &amp; Sentimental Analysis Elon Musk Tweets'>
       <cards>
         <edge name='left'>
           <strip size='160'>
