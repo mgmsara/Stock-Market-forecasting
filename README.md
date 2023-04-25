@@ -3,4 +3,8 @@
 
 Sentimental Analysis on Twitter to predict Stock Market Prices. 
 
-The objective of this research is to determine the impact of Twitter on the global economy. For this purpose, Sentimental Analysis principles will be applied to tweets. The classification will help us to find the correlation between the “public sentiment” and the market evolution to predict future stock market movements.
+The aim of this study is to examine the potential impact of Twitter on the global economy by conducting sentiment analysis on tweets and exploring any potential correlation between public sentiment on Twitter and the stock market, with the goal of predicting future market movements.
+
+
+
+
